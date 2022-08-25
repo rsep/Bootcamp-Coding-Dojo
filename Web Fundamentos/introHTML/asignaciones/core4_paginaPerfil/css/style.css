@@ -1,0 +1,183 @@
+/* todo en negro con letras blancas */
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVEGADOR SUPERIOR */
+.nav{
+    background-color: rgba(32, 31, 31, 0.847);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+/* es mi clase contenedor */
+.nav-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-links li{
+    margin-right: 10px;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(73, 172, 195);
+    color: white;
+    border: 2px solid black;
+
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    
+    padding: 10px 5px;
+}
+
+
+/*
+CONTAINER-BODY
+*/
+.container-body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+    border: 2px solid rgb(166, 166, 166);
+    margin: 40px 20px;
+    border-radius: 3px;
+}
+.lat-der .card{
+    width: 300px;
+}
+
+/* TARJETA USUARIO */
+img.icon{
+    /* height: 20px; */
+    width: 10px;
+    margin-right: 5px;
+}
+#user .card-header{
+    background-color: rgb(59, 175, 193);
+    height: 80px;
+    position: relative;
+}
+#user .card-body{
+    height: 180px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+    left: 25px;
+}
+#user h2, #user h4, #user p, #user a{
+    margin-bottom: 10px;
+}
+#user .imagen-usuario{
+    width: 100px;
+    border: 2px solid lightgray;
+    border-radius: 50%; /* redondear, hace círculo perfecto con 50% */
+    position: absolute;
+    top: 45px;
+    left: 25px;
+}
+
+/* EDUCACION */
+.card-header{
+    background-color: rgba(32, 31, 31, 0.847);
+    color: white;
+    height: 30px;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+#educacion .card-header{
+    height: 10px;
+}
+#educacion .card-body{
+    padding: 10px;
+    position: relative;
+    left: 10px;
+}
+.fecha{
+    color: rgb(146, 143, 143);
+    margin: 10px 0;
+}
+.logros{
+    font-weight: 600;
+    margin: 10px 0;
+}
+#educacion h3{
+    font-weight:500;
+}
+h4.title{
+    font-weight: 400;
+    position: relative;
+    left: 10px;
+}
+
+/* CONNECTION REQUEST */
+.imagen-usuario{
+    width: 50px;
+    border-radius: 50%; /* redondear, hace círculo perfecto con 50% */
+    margin-right: 10px;
+    border: 1px solid white;
+        /* shadow */
+    box-shadow: 1px 1px 1px 0px rgba(100, 100, 100, 0.75);
+}
+.user, .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.btn-header{
+    border: 2px solid white;
+    background-color: lightgray;
+    font-size: medium;
+    margin-right: 10px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+}
+#request .btn-header{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* YOUR CONNECTIONS */
+#connection .btn-header{
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.link{
+    border-top: 2px solid lightgray;
+    padding: 10px;
+}
+
+.link a{
+    color: rgb(59, 122, 204);
+}
+
+/* Botones Aceptar y Cerrar */
+.boton img{
+    width: 40px;
+    margin-right: 5px;
+    border: none;
+}
+.boton a{
+    text-decoration: none;
+    background: none;
+}

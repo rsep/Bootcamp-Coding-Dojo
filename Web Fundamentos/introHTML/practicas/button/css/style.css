@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+button{
+    margin: 15px;;
+}
+
+.btn1{
+    background-color: rgb(250, 247, 247);
+    border: 2px solid rgb(88, 184, 155);
+    color: rgb(88, 184, 155);
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 5px 50px;
+    font-size: medium;
+}
+
+.btn2{
+    background-color: rgb(108, 219, 186);
+    border-radius: 50%;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn3{
+    background-color: rgb(56, 137, 207);
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid black;
+    height: 40px;
+    font-size: large;
+    /* shadow */
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(56, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 3px 0px rgba(56, 50, 50, 0.75);
+    box-shadow:         3px 3px 3px 0px rgba(56, 50, 50, 0.75);
+}

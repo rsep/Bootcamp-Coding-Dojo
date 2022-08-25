@@ -1,0 +1,30 @@
+*{
+    /* con esto estamos haciendo CSS Reset */
+    /* todo */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    border: 1px solid black;
+    height: 450px;
+    position: relative;
+}
+
+.element{
+    background-color: gray;
+    padding: 10px;
+}
+.main-element{
+    background-color: yellow;
+    padding: 10px;
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+    position: sticky;
+    top: 10px;
+    left: 20px;
+    /* bottom: 0;
+    right: 0; */
+}

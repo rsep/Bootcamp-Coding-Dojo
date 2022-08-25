@@ -1,0 +1,31 @@
+*{
+    margin: 10px;
+}
+
+.row{
+    width: 1200px;
+    height: 200px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.col, .col-2, .col-3{
+    background-color:rgb(255, 218, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+}
+
+/* */
+

@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(245, 245, 220, 0.266);
+}
+
+.titulo{
+    text-align: center;
+}
+
+.bandera{
+    width: fit-content;
+    height: fit-content;
+    margin: 10px auto;
+    border-radius: 200%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.071); 
+}
+.top{
+    display: flex;
+}
+.azul{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.blanco{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+}
+
+.bottom{
+    width: 400px;
+    height: 100px;
+    background-color: red;
+}
+

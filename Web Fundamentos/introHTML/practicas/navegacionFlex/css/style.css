@@ -1,0 +1,44 @@
+/* todo en negro con letras blancas */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    background-color: rgba(32, 31, 31, 0.847);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding izq y derecha */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* es mi clase contenedor */
+.nav-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links li{
+    margin-right: 10px;
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgb(73, 172, 195);
+    color: white;
+    border: 2px solid black;
+
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    
+    padding: 10px 5px;
+}

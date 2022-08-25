@@ -1,0 +1,132 @@
+h2{
+    color: red;
+}
+
+h3{
+    color: blue;
+}
+
+.azul{
+    color: blue;
+}
+
+#h1_id{
+    font-size: 100px;
+    background-color: yellow;
+}
+
+.parrafo strong{
+    text-transform: uppercase;
+}
+
+.contenedor > h4{
+    text-decoration: underline;
+}
+
+/* selecciona el elemento que tiene AMBOS selectores */
+h2.azul{
+    color: purple;
+}
+
+h2.azul#L2{
+    color: yellow;
+}
+
+input[type="text"]{
+    width: 350px;
+}
+
+input[type="number"]{
+    height: 50px;
+}
+
+input, textarea{
+    border: 3px solid magenta;
+}
+
+.color{
+    color: brown;
+    background-color: lightblue;
+}
+
+.texto{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.tamano{
+    background-color: gray;
+    width: 400px;
+    height: 50px;
+}
+
+.background{
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+
+    background-color: aqua;
+    background-image: url("../images/cat.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#boxmodel{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px auto;
+    border: 2px solid fuchsia;
+    padding: 20px;
+}
+
+
+/*  */
+.h2_inline{
+    display: inline;
+}
+
+.block{
+    display: block;
+}
+
+.flag{
+    width: 150px;
+    height: 250px;
+    display: inline-block;
+}
+.black{
+    background-color: black;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+
+.div1{
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: purple;
+    display: inline-block;
+}
+.div2{
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: green;
+    display: inline-block;
+}
+.div3{
+    width: 250px;
+    height: 80px;
+    border: 1 px solid black;
+    background: orangered;
+    display: inline-block;
+}
+.vertical_align{
+    vertical-align: middle;
+}

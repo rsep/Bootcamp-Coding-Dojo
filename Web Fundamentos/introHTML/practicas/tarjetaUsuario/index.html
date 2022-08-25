@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Usuario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet"></head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <img class="imagen-usuario" src="images/user-circle.png" alt="imagen de usuario"
+                ondblclick="dobleclic_avatar()">
+        </div>
+        <div class="card-body">
+            <h2 onmouseover="over()" onmouseout="out()">Jane Doe</h2>
+            <h4><img class="icon" src="images/map-marker.png" alt="icono de marcador de ubicación">Seattle</h4>
+            <p>Developer | Engineer | Problem Solver<br>Master of shadows and the Internet!</p>
+            <a href="#" onclick="clic_editar()"><img class="icon" src="images/gear.png" alt="icono de configuración">edit profile</a>
+        </div>
+    </div>
+
+    <!-- agregar script -->
+    <script src="js/script.js"></script>
+</body>
+</html>

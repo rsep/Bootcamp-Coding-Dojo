@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+
+h1, h2, h3{
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+.span-titulo{
+    color: aqua;
+}
+
+h2{
+    background-color: rgb(116, 86, 228);
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+h3{
+    background-color: rgb(137, 202, 255);
+    color: rgb(91, 65, 133);
+    text-decoration: underline;
+    text-align: end;
+}

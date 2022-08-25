@@ -1,0 +1,43 @@
+img.octocat {
+    height: 200px;
+    margin: 10px;
+}
+
+.container{
+    width: 950px;
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    size: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.row1, .row2, .row3, .row4{
+    height: 200px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.row1{
+    background-color: aliceblue;
+}
+.row2{
+    background-color: rgba(172, 255, 47, 0.382);
+    justify-content: space-evenly;
+}
+.row3{
+    background-color: beige;
+}
