@@ -1,0 +1,119 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo de botón favorito de la asignación Button */
+.btn{
+    background-color: rgb(56, 137, 207);
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid black;
+    height: 40px;
+    font-size: large;
+    /* shadow */
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(56, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 3px 0px rgba(56, 50, 50, 0.75);
+    box-shadow:         3px 3px 3px 0px rgba(56, 50, 50, 0.75);
+}
+
+/* .row y .col de la asignación Columnas flex-ibles */
+.row{
+    width: 1200px;
+    height: 200px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.col{
+    background-color:rgb(255, 218, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.col-2{
+    flex: 2;
+}
+.col-3{
+    flex: 3;
+}
+
+/* .navbar de la asignación barra de navegación con Flex */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: rgba(32, 31, 31, 0.847);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding izq y derecha */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* es mi clase contenedor */
+.nav-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-links li{
+    margin-right: 10px;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(73, 172, 195);
+    color: white;
+    border: 2px solid black;
+
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    
+    padding: 10px 5px;
+}
+
+/* Otras clases */
+.container{
+    width: 950px;
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card{
+    width: 500px;
+    border: 2px solid rgb(166, 166, 166);
+    margin: 40px 20px;
+    border-radius: 3px;
+}
+img.icon{
+    /* height: 20px; */
+    width: 10px;
+    margin-right: 5px;
+}
+.imagen-usuario{
+    width: 50px;
+    border-radius: 50%; /* redondear, hace círculo perfecto con 50% */
+    margin-right: 10px;
+    border: 1px solid white;
+        /* shadow */
+    box-shadow: 1px 1px 1px 0px rgba(100, 100, 100, 0.75);
+}
