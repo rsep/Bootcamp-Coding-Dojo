@@ -17,9 +17,12 @@
                 ondblclick="dobleclic_avatar()">
         </div>
         <div class="card-body">
-            <h2 onmouseover="over()" onmouseout="out()">Jane Doe</h2>
-            <h4><img class="icon" src="images/map-marker.png" alt="icono de marcador de ubicación">Seattle</h4>
-            <p>Developer | Engineer | Problem Solver<br>Master of shadows and the Internet!</p>
+            <h2 onmouseover="over()" onmouseout="out()" onclick="cambieNombre(this)">Jane Doe</h2>
+            <h4><img class="icon" src="images/map-marker.png" onclick="cambiaImagen(this)" alt="icono de marcador de ubicación">Seattle</h4>
+            <p id="descripcion" ondblclick="elimine(this)">
+                Developer | Engineer | Problem Solver<br>
+                Master of shadows and the Internet!
+            </p>
             <a href="#" onclick="clic_editar()"><img class="icon" src="images/gear.png" alt="icono de configuración">edit profile</a>
         </div>
     </div>
