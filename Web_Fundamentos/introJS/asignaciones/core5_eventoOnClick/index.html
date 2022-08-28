@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento on Click</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Comic Neue Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button type="submit" onclick="cambiar_status(this)">Login</button>
+    </div>
+
+    <div class="container">
+        <div class="lat-izq">
+            <!-- CARD 1 -->
+            <div class="card">
+                <div class="row-center">
+                    <div class="col">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button id="likes" type="submit" onclick="darLike()">13 likes</button>
+                    </div>
+                    <div class="col-2">
+                        <h3>A practitioner skilled in the 
+                            <a href="#">Japanese</a> art of 
+                            <a href="#">ninjutsu</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 2 -->
+            <div class="card">
+                <div class="row-center">
+                    <div class="col">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button type="submit">37 likes</button>
+                    </div>
+                    <div class="col-2">
+                        <h3>A <a href="#">programmer</a> who breaks 
+                            down problems with
+                            <a href="#">zen</a>-like focus
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lat-der">
+            <div class="card">
+                <div class="row">
+                    <h2>Dojonary is defined by <span>YOU</span></h2>
+                </div>
+                <div class="row">
+                    <button type="submit" onclick="eliminar(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
