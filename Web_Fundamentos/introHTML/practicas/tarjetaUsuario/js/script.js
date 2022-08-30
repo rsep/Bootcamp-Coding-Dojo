@@ -27,10 +27,14 @@ function dobleclic_avatar(){
 
 function over(){
     console.log("El mouse está sobre Jane");
+    var nombre = document.querySelector("h2");
+    nombre.style.backgroundColor = "red";
 };
 
 function out(){
     console.log("El mouse está fuera de Jane");
+    var nombre = document.querySelector("h2");
+    nombre.style.backgroundColor = "white";
 };
 
 function cambieNombre(elemento_h2){
@@ -52,8 +56,25 @@ function cambiaImagen(elemento_img){
     } else {
         elemento_img.src = "images/map-marker.png";
     }
+
+    var location = document.querySelector("h4");
+    if (location.style.textDecoration !== "underline"){
+        location.style.textDecoration = "underline";
+    } else{
+        location.style.textDecoration = "none";
+    }
+    
 }
 
 function elimine(elemento_p){
     elemento_p.remove(); //elimina el elemento al que hacemos doble clic
+}
+
+function cambioInput(){
+    console.log("Hubo un cambio");
+    var input = document.querySelector("#nombre");
+    console.log(input.value);
+
+    var elemento_h2 = document.querySelector("h2");
+    elemento_h2.innerText = input.value;
 }
