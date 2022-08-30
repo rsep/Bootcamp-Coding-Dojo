@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+/* NAV */
+header{
+    width: 100%;
+    background-color: rgb(175, 202, 255);
+}
+nav{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: white;
+}
+nav ul{
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+/* Tamaños textos */
+h1{
+    font-size: 35pt;
+}
+h2{
+    font-size: 30pt;
+}
+h3{
+    font-size: 25px;
+}
+p, label{
+    font-weight: 600;
+}
+
+
+/* MAIN */
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* ROW: SAN JOSE */
+.sanjose{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+/* ROW: WEEK */
+.week{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    gap: 5%;
+}
+.card{
+    flex: 1;
+    text-align: center;
+    background-color: rgb(229, 229, 229);
+    padding: 20px 10px;
+}
+.card img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.temperaturas{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 800;
+    font-size: 15pt;
+}
+.max{
+    color: red;
+}
+.min{
+    color: blue
+}
+
+/* FOOTER */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.cookie{
+    background-color: rgb(229, 229, 229);
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cookie .text{
+    width: 50%;
+}
+
+button{
+    background-color: rgb(175, 202, 255);
+    color: black;
+    border: 3px solid black;
+
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    
+    padding: 3px 15px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+span{
+    font-size: 20pt;
+    margin-left: 5px;
+}
