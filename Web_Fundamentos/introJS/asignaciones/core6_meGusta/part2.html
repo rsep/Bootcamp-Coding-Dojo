@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Comic Neue Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+        <div class="row">
+            <h1>Your Feed</h1>
+        </div>
+
+        <div class="body">
+
+            <div class="lat-izq">
+                <div class="card">
+                    <img class="icono" src="images/user-circle.png" alt="imagen de usuario">
+                    <a href="#">Add an avatar</a>
+                    <h2>James Doe</h2>
+                </div>
+            </div>
+
+            <div class="lat-der">
+                <div class="card">
+                    <div class="row">
+                        <h2>Neil M</h2>
+                        <h4><span id="like1">9</span> like(s)</h4>
+                        <button type="submit" onclick="aumentar_diferido(this)" value="btn1">Like</button>
+                    </div>
+                    <div class="row">
+                        <p>I just set up this new discord bot, 
+                            let me know what you all think <a href="#">link</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="row">
+                        <h2>Nichole K</h2>
+                        <h4><span id="like2">12</span> like(s)</h4>
+                        <button type="submit" onclick="aumentar_diferido(this)" value="btn2">Like</button>
+                    </div>
+                    <div class="row">
+                        <p>Just finished my <a href="#">new comic</a>, check 
+                            it out.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="row">
+                        <h2>Jim R</h2>
+                        <h4><span id="like3">9</span> like(s)</h4>
+                        <button type="submit" onclick="aumentar_diferido(this)" value="btn3">Like</button>
+                    </div>
+                    <div class="row">
+                        <p>I can't stop listening to the <a href="#">new album</a>. 
+                            Who else is liking it?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
